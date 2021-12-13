@@ -1,0 +1,191 @@
+.App {
+  display: flex;
+  flex-direction: column;
+  font-family: sans-serif; 
+  text-align: center;
+  background-color: Black;
+  overflow: auto;
+  stretch: auto;
+  padding:0;
+  margin:0;
+}
+
+
+.wrapper {
+  background-color:black;
+  color: white;
+}
+
+.Content{
+  background-color:black;
+  display: flex;
+  overflow: auto;
+}
+
+
+
+.lists {
+  width: 50%;
+}
+
+.texts {
+  width: 50%;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.project {
+  padding-left: 8px;
+}
+
+.list {
+  padding: 6px 0;
+  display: flex;
+  justify-content: space-between;
+  border: 1px solid white;
+  border-right-color: #80dce6;
+  border-right-width: 4px;
+  border-top-width: 0px;
+  color: white;
+}
+
+.cta {
+  display: flex;
+}
+
+.button {
+  width: 100px;
+  border-radius: 10px;
+  margin: 6px;
+  border: 2px solid white;
+  background-color: black;
+  color: white;
+}
+
+.button.defense:hover {
+  background-color: blue;
+}
+
+.button:hover {
+  background: red;
+  cursor: pointer;
+}
+
+.header {
+  display: flex;
+  width: 100%;
+  display: flex;
+  color: white;
+  font-weight: 600;
+  font-size: 35px;
+  justify-content: space-between;
+  align-items: center;
+  margin : 0;
+ 
+}
+
+.hostbutton{
+  position: relative; right:-40px; top:11px;
+  border-radius: 20px;
+  height: 30px;
+  width: 150px;
+  font-size: 25px;
+  margin: 25px;
+  color: white;
+  background-color: black;
+  border: 2px solid #80dce6;
+  text-align: center;
+  cursor: pointer;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+
+.investbutton{
+  position: relative; top:11px;
+  border-radius: 20px;
+  height: 30px;
+  width: 150px;
+  font-size: 25px;
+  margin: 25px;
+  color: white;
+  background-color: black;
+  border: 2px solid #80dce6;
+  appearance: none;
+  text-align: center;
+  cursor: pointer;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+
+.hostbutton:hover{
+  background-color: #80dce6;
+  color: black;
+}
+
+
+.investbutton:hover{
+  background-color: #80dce6;
+  color: black;
+}
+
+
+
+.abutton {
+  border-radius: 10px;
+  position: absolute; left: 617px ; top: 12.6px;
+  vertical-align;
+  horizontal-align;
+  float: right;
+  margin: 2px;
+  color: white ;
+  border-color: white ;
+  text-align: center;
+  justify-content: space-between;
+}
+
+
+.abutton:hover {
+  background: #cd4a4e;
+  border-color: white ;
+  color: white;
+}
+
+
+.dbutton {
+  float: right;
+  position: absolute; left: 717px; top: 14px;
+  border-radius: 10px;
+  color: white;
+  background-color: black;
+  border-color: white;
+  text-align: center;
+}
+
+.dbutton:hover {
+  color: black ;
+  border-color: white ;
+  background-color: #80dce6;
+}
+
+.link{
+  text-decoration: none;
+}
+
+.line{
+  background-color: #80dce6;
+  border: 2px solid #80dce6;
+  width: 100%;
+  padding: 0;
+  margin: 0;
+}
+
+.line2{
+  width:49%;
+  float: left;
+}
+
+body {
+  margin: 0;
+}

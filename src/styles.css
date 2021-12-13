@@ -1,0 +1,114 @@
+.Content {
+  display: flex;
+  flex-direction: column;
+  font-family: sans-serif;
+  text-align: center;
+  background-color: Black;
+}
+
+* {
+  padding: 0;
+  margin: 0;
+}
+
+.header {
+  display: flex;
+  width: 100%;
+  display: flex;
+  color: white;
+  font-weight: 600;
+  font-size: 35px;
+  box-sizing: border-box;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.selectbox {
+  display: flex;
+}
+
+.hostbutton {
+  border-radius: 20px;
+  height: 30px;
+  width: 150px;
+  font-size: 25px;
+  margin: 25px;
+  color: white;
+  background-color: black;
+  border-color: #95e8f1 !important;
+  appearance: none;
+  text-align: center;
+  cursor: pointer;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+
+.hostbutton:hover {
+  background-color: #80dce6;
+  border: 2px solid white;
+  color: black;
+}
+
+.investbutton {
+  border-radius: 20px;
+  height: 30px;
+  width: 150px;
+  font-size: 25px;
+  margin: 25px;
+  color: white;
+  background-color: black;
+  border-color: #80dce6 !important;
+  appearance: none;
+  text-align: center;
+  cursor: pointer;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+
+.investbutton:hover {
+  background-color: #80dce6;
+  border: 2px solid white;
+  color: black;
+}
+
+.selectbox::-ms-expand {
+  display: none;
+}
+
+.list {
+  margin-top: 30px;
+  text-align: left;
+  color: white;
+  font-size: 15px;
+  font-weight: 50;
+}
+
+.abutton {
+  float: right;
+  margin: 2px;
+  color: white !important;
+  border-color: white !important;
+}
+
+.abutton:hover {
+  background: #cd4a4e;
+  border-color: white !important;
+  color: white;
+}
+
+.dbutton {
+  float: right;
+  margin: 2px;
+  color: white;
+  background-color: black;
+  border-color: white;
+}
+
+.dbutton:hover {
+  color: black !important;
+  border-color: white !important;
+  background-color: #80dce6;
+}
+
+.Defense {
+}
